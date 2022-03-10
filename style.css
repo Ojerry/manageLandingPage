@@ -4,14 +4,11 @@
 
 
 
-
-
-
-
 body {
      font-family: 'Be Vietnam Pro', sans-serif;
      background-color: #fff;
      font-size: 16px;
+     overflow-x: hidden;
 }
 
 /* HEADER */
@@ -38,16 +35,33 @@ header .btn:hover {
 
 .design-pattern {
      position: absolute;
-     width: 70%;
-     height: 90vh;
+     width: 100vw;
+     height: 100vh;
      top: -10%;
-     right: -15%;
+     right: -25%;
      z-index: -1;
 }
 
 /* ANALYTICS SECTION */
+.container-2{
+     display: flex;
+     align-items: center;
+}
 
 /* DESCRIPTION SECTION */
+.container-3{
+     display: flex;
+}
+
+.first-desc{
+display: flex;
+}
+.second-desc{
+     display: flex;
+}
+.third-desc{
+     display: flex;
+}
 
 /* FEATURES SECTION */
 
