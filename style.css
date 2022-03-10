@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+
+
+
+
+
+
+
+
+body {
+     font-family: 'Be Vietnam Pro', sans-serif;
+     background-color: #fff;
+     font-size: 16px;
+}
+
+/* HEADER */
+
+.navigation{
+     margin-top: 3rem;
+     font-weight: 500;
+}
+.navbar-nav {
+     margin: auto;
+}
+
+header .btn {
+     background-color: hsl(12, 88%, 59%);
+     padding: 10px 20px;
+     border: 0;
+     border-radius: 40px;
+}
+
+header .btn:hover {
+     background-color: hsl(12, 88%, 59%);
+     opacity: .8;
+}
+
+.design-pattern {
+     position: absolute;
+     width: 70%;
+     height: 90vh;
+     top: -10%;
+     right: -15%;
+     z-index: -1;
+}
+
+/* ANALYTICS SECTION */
+
+/* DESCRIPTION SECTION */
+
+/* FEATURES SECTION */
+
+/* CAROUSEL TESTIMONIALS */
+
+/* BOTTOM SECTION */
+
+/* FOOTER */
