@@ -3,7 +3,6 @@
 
 
 
-
 body {
      font-family: 'Be Vietnam Pro', sans-serif;
      background-color: #fff;
@@ -43,24 +42,35 @@ header .btn:hover {
 }
 
 /* ANALYTICS SECTION */
+/* For mobile */
 .container-2{
-     display: flex;
+     display: grid;
+     grid-template-columns: 1fr;
      align-items: center;
+     margin-top: 3em;
 }
+.container-2-right{
+     object-fit: cover;
+}
+@media only screen and (min-width: 376px) {
+     .container-2{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          margin-top: 2em;
+     }
+}
+
+
 
 /* DESCRIPTION SECTION */
 .container-3{
-     display: flex;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     row-gap: 1em;
+     margin-top: 3em;
 }
-
-.first-desc{
+.desc{
 display: flex;
-}
-.second-desc{
-     display: flex;
-}
-.third-desc{
-     display: flex;
 }
 
 /* FEATURES SECTION */
