@@ -62,16 +62,22 @@ header .btn:hover {
 /* FEATURES SECTION */
 
 /* CAROUSEL TESTIMONIALS */
-.card-div {
+.card-div-one {
   height: 15rem;
   width: 28rem;
   margin-right: 1rem;
   background-color: hsla(223, 26%, 95%, 0.884);
 }
-.card-div-middle {
+.card-div-two {
   height: 15rem;
   width: 28rem;
   margin-inline: 1rem;
+  background-color: hsla(223, 26%, 95%, 0.884);
+}
+.card-div-three {
+  height: 15rem;
+  width: 28rem;
+  margin-left: 1rem;
   background-color: hsla(223, 26%, 95%, 0.884);
 }
 .card-text {
