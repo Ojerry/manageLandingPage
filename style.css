@@ -1,84 +1,108 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
 
-
-
-
 body {
-     font-family: 'Be Vietnam Pro', sans-serif;
-     background-color: #fff;
-     font-size: 16px;
-     overflow-x: hidden;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  background-color: #fff;
+  font-size: 16px;
+  overflow-x: hidden;
 }
 
 /* HEADER */
 
-.navigation{
-     margin-top: 3rem;
-     font-weight: 500;
+.navigation {
+  margin-top: 3rem;
+  font-weight: 500;
 }
 .navbar-nav {
-     margin: auto;
+  margin: auto;
 }
 
 header .btn {
-     background-color: hsl(12, 88%, 59%);
-     padding: 10px 20px;
-     border: 0;
-     border-radius: 40px;
+  background-color: hsl(12, 88%, 59%);
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 40px;
 }
 
 header .btn:hover {
-     background-color: hsl(12, 88%, 59%);
-     opacity: .8;
+  background-color: hsl(12, 88%, 59%);
+  opacity: 0.8;
 }
 
 .design-pattern {
-     position: absolute;
-     width: 100vw;
-     height: 100vh;
-     top: -10%;
-     right: -25%;
-     z-index: -1;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: -10%;
+  right: -25%;
+  z-index: -1;
 }
 
 /* ANALYTICS SECTION */
-/* For mobile */
-.container-2{
-     display: grid;
-     grid-template-columns: 1fr;
-     align-items: center;
-     margin-top: 3em;
+.container-2 {
+  display: flex;
+  align-items: center;
 }
-.analytics-image{
-     width: 100%;
-     height: 100%;
-     object-fit: contain;
-}
-@media only screen and (min-width: 376px) {
-     .container-2{
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          margin-top: 2em;
-     }
-}
-
-
 
 /* DESCRIPTION SECTION */
-.container-3{
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     row-gap: 1em;
-     margin-top: 3em;
+.container-3 {
+  display: flex;
 }
-.desc{
-display: flex;
+
+.first-desc {
+  display: flex;
+}
+.second-desc {
+  display: flex;
+}
+.third-desc {
+  display: flex;
 }
 
 /* FEATURES SECTION */
 
 /* CAROUSEL TESTIMONIALS */
-
+.card-div {
+  height: 15rem;
+  width: 28rem;
+  margin-right: 1rem;
+  background-color: hsla(223, 26%, 95%, 0.884);
+}
+.card-div-middle {
+  height: 15rem;
+  width: 28rem;
+  margin-inline: 1rem;
+  background-color: hsla(223, 26%, 95%, 0.884);
+}
+.card-text {
+  text-align: center;
+  width: 24.5rem;
+}
+.card-text-middle {
+  text-align: center;
+}
 /* BOTTOM SECTION */
-
+img {
+  width: 5rem;
+}
+.btn-one {
+  border: none;
+  border-radius: 4rem;
+  background-color: hsl(12, 88%, 59%);
+  color: white;
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+  box-shadow: 0px 8px 10px hsl(12, 88%, 59%);
+}
+.btn-two {
+  border: none;
+  border-radius: 4rem;
+  background-color: white;
+  color: hsl(12, 88%, 59%);
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+}
+.bottom-bg {
+  background-color: hsl(12, 88%, 59%);
+}
 /* FOOTER */
