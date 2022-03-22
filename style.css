@@ -45,6 +45,9 @@ p {
     margin: auto;
 }
 
+.navbar-brand img{
+ width: 100%;
+}
 .btn {
     background-color: var(--Bright-Red);
     border: none;
